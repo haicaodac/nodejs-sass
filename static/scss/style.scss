@@ -1,0 +1,70 @@
+@import "./variable.scss";
+
+.gf_section-1 {
+    margin-top: -90px;
+    position: relative;
+    height: 500px;
+    overflow: hidden;
+
+    img {
+        position: relative;
+        z-index: 10;
+        width: 100%;
+    }
+
+    .herobanner-text {
+        position: absolute;
+        z-index: 100;
+        top: 27%;
+        left: 15%;
+        color: #fff;
+
+        h1 {
+            font-size: 70px;
+            margin-bottom: 10px;
+            font-weight: 700;
+            text-transform: uppercase;
+        }
+
+        p {
+            max-width: 500px;
+            font-size: 18px;
+            letter-spacing: 0.3px;
+            line-height: 1.4;
+        }
+    }
+
+    .herobanner-box {
+        position: absolute;
+        z-index: 200;
+        background: #333b50;
+        bottom: 0;
+        left: 50%;
+        transform: translate(-50%, 0%);
+        height: 200px;
+        width: 800px;
+
+        img {
+            width: 80px;
+        }
+
+        p {
+            color: #fff;
+        }
+    }
+
+    .herobanner-box-content {
+        max-width: 400px;
+
+        img {
+            margin-bottom: 10px;
+        }
+
+        p {
+            text-align: center;
+            font-size: 14px;
+            letter-spacing: 0.4px;
+            line-height: 1.3;
+        }
+    }
+}
