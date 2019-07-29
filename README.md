@@ -1,8 +1,16 @@
-### How do I get set up? ###
+### Cài đặt để code Themes ###
 
-* install nodejs
-* npm install
+Bước 1: Clone thư mục về với tên thư mục là: megan-bebas
 
-### run ###
+git clone https://github.com/haicaodac/nodejs-sass.git megan-bebas
+cd megan-bebas
 
-* npm run dev
+npm install
+
+### Chạy chế độ phát triển ###
+
+npm run dev
+
+### Dừng chương trình ###
+
+npm run stop
