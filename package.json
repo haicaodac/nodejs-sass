@@ -13,6 +13,6 @@
   "dependencies": {
     "express": "^4.16.4",
     "express-compile-sass": "^4.0.0",
-    "node-sass": "^4.11.0"
+    "node-sass": "^4.13.1"
   }
 }
